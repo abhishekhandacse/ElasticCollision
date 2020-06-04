@@ -1,4 +1,4 @@
-# Link to Visualization [Click Me !] (https://abhishekhandacse.github.io/ElasticCollision/)
+Link to Visualization [Link] (https://abhishekhandacse.github.io/ElasticCollision/)
 
 # Elastic Collision Visualizer
 
@@ -22,10 +22,5 @@ This is a Elastic collision visulizer made using -:
 # Improvements
 - Please feel free to send PR if you find anything strange like bug etc.
 - You can also suggest enhancements that could also be done ( like taking friction also into account :)  )
-
-You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
 
 
