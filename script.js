@@ -6,7 +6,7 @@ let circle2;
 var sound;
 function init(){
     ctx.canvas.width  = window.innerWidth-50;
-    ctx.canvas.height = window.innerHeight-250;
+    ctx.canvas.height = window.innerHeight-100;
     circle1=new Circle(50+1,ctx.canvas.height-50,50,0,0);
     circle2=new Circle(ctx.canvas.width-50-1,ctx.canvas.height-50,50,0,0);
     drawCircle(circle1,'purple');
