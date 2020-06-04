@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#canvas{
+    background: #f0f0f0;
+    border-radius: 5px;
+    border-bottom: 5px solid #000000;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+    
+}

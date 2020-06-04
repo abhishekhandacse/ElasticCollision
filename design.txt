@@ -1,0 +1,10 @@
+Aim-:
+
+Stage 1
+    ==> Simulate two balls moving on the floor first one from left to right and second one from right to left.
+
+Stage 2
+    ==> Add the collision property to the balls and they should bounce back after colliding with each other.
+
+Stage 3
+    ==> Add the velocity input box and simulate their velocity and hence momentum differences well.
