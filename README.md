@@ -1,4 +1,4 @@
-Link to Visualization [Link] (https://abhishekhandacse.github.io/ElasticCollision/)
+- [Link](https://abhishekhandacse.github.io/ElasticCollision/) 
 
 # Elastic Collision Visualizer
 
