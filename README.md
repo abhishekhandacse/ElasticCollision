@@ -20,8 +20,8 @@ This is a Elastic collision visulizer made using -:
 - For better understanding, please watch the video [Link](https://www.khanacademy.org/science/physics/linear-momentum/elastic-and-inelastic-collisions/v/how-to-use-the-shortcut-for-solving-elastic-collisions) 
 
 # Future Improvements
-- Friction on the floor.
-- Inelasticity of the colliding objects.
+- A slider to include Friction on the floor.
+- A slider for Inelasticity of the colliding objects.
 - Please feel free to suggest more improvements :)
 
 # References
