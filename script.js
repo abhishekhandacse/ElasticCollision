@@ -4,6 +4,7 @@ const ctx = canvas.getContext('2d');
 let circle1;
 let circle2;
 var sound;
+
 function init(){
     ctx.canvas.width  = window.innerWidth-50;
     ctx.canvas.height = 250;
@@ -11,8 +12,7 @@ function init(){
     circle2=new Circle(ctx.canvas.width-50-1,ctx.canvas.height-50,50,0,0);
     drawCircle(circle1,'purple');
     drawCircle(circle2,'orange');
-    sound=new Audio('tick.mp3');
-
+    checkSound();
 }
 class Circle{
     constructor(x,y,size,dx,dy){
@@ -70,12 +70,16 @@ function hitWall(circle){
    
     if(circle.x+circle.size>=canvas.width){
         circle.dx=(-1*(circle.dx));
-        sound.play();
-        sound.currentTime=0;
+        if(sound!=null){
+            sound.play();
+            sound.currentTime=0;
+        }
     }else if(circle.x-circle.size<=0){
         circle.dx=(-1*(circle.dx));
-        sound.play();
-        sound.currentTime=0;
+        if(sound!=null){
+            sound.play();
+            sound.currentTime=0;
+       }
     }  
 }
 
@@ -85,8 +89,10 @@ function changeX(circle){
 
 function areColliding(circle1,circle2){
     if(Math.abs(circle1.x-circle2.x)<=Math.abs(circle1.size+circle2.size)){
-        sound.play();
-        sound.currentTime=0;
+        if(sound!=null){
+             sound.play();
+             sound.currentTime=0;
+        }
         // conserving momentum and kinetic energy during the collision
         let v2=((2*circle1.dx)+((1-(circle2.size/circle1.size))*circle2.dx))/((1+(circle2.size/circle1.size)));
         let v1=v2-circle1.dx+circle2.dx;
@@ -128,7 +134,14 @@ function update(){
    }
    requestAnimationFrame(update);
 }
-
+function checkSound(){
+    var checkBox = document.getElementById("checkBox");
+    if (checkBox.checked == false){
+        sound=null;
+      } else {
+        sound=new Audio('tick.mp3');
+      }
+}
 
 
 

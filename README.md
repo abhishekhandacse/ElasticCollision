@@ -1,4 +1,4 @@
-# [Link](https://abhishekhandacse.github.io/ElasticCollision/) 
+# [Go to Simulation](https://abhishekhandacse.github.io/ElasticCollision/) 
 
 # Elastic Collision Visualizer
 
@@ -20,7 +20,13 @@ This is a Elastic collision visulizer made using -:
 - For better understanding, please watch the video [Link](https://www.khanacademy.org/science/physics/linear-momentum/elastic-and-inelastic-collisions/v/how-to-use-the-shortcut-for-solving-elastic-collisions) 
 
 # Improvements
-- Please feel free to send PR if you find anything strange like bug etc.
+- Please feel free to send PR if you find anything strange  etc.
 - You can also suggest enhancements that could also be done ( like taking friction also into account :)  )
+
+# References
+# [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) 
+# [Video](https://www.youtube.com/watch?v=gm1QtePAYTM) 
+
+### Thank You & Have a great day !
 
 
