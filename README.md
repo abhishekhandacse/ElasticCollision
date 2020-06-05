@@ -24,9 +24,9 @@ This is a Elastic collision visulizer made using -:
 - You can also suggest enhancements that could also be done ( like taking friction also into account :)  )
 
 # References
-# [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) 
-# [Video](https://www.youtube.com/watch?v=gm1QtePAYTM) 
+#### [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) 
+#### [Video](https://www.youtube.com/watch?v=gm1QtePAYTM) 
 
-### Thank You & Have a great day !
+#### Thank You & Have a great day !
 
 
