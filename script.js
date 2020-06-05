@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 
 let circle1;
 let circle2;
-var sound;
+let sound;
 
 function init(){
     ctx.canvas.width  = window.innerWidth-50;
